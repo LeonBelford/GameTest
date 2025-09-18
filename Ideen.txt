@@ -1,0 +1,25 @@
+
+Ideen: 	
+
+Energie gewinnung:
+	- Evtl Strom etc, selber Produzieren lassen
+	- evtl anfangs Solarstrom und später Kohlekraftwerke etc.
+
+
+	Miner:
+	- Mark 1 - 5.
+	- untertielen in Cole, Iron, Sand Minder etc
+	- Miner Brauchen Recoursen um die zu kaufen?
+	- sammeln Recourcen können verkauft werden
+
+
+	Econemy:
+	- Ressourcen sollen von verschiedenen Minern (Cole, Iron etc) ergattert werden
+	- Es soll einen Markt geben, auf dem sachen verkauft / gekauft werden (mit Kursen)
+	- mit geld und recoursen kann man dann neue Miner kaufe und Ugraden (werden prozentual teuerer)
+
+
+	Kosten:
+	- Pro miner kommmen Maintenece Kosten
+	- "strom" "treibstoff" kosten gehen nach oben mit jedem Mark miner und level
+	- regelmäßig kommen "random" kosten auf einen zu (umweltabgaben, Moralabzug oder so)

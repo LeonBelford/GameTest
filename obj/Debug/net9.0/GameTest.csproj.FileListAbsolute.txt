@@ -1,0 +1,15 @@
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.AssemblyInfoInputs.cache
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.AssemblyInfo.cs
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.csproj.CoreCompileInputs.cache
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.sourcelink.json
+/home/nick/C#/GameTest/bin/Debug/net9.0/GameTest
+/home/nick/C#/GameTest/bin/Debug/net9.0/GameTest.deps.json
+/home/nick/C#/GameTest/bin/Debug/net9.0/GameTest.runtimeconfig.json
+/home/nick/C#/GameTest/bin/Debug/net9.0/GameTest.dll
+/home/nick/C#/GameTest/bin/Debug/net9.0/GameTest.pdb
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.dll
+/home/nick/C#/GameTest/obj/Debug/net9.0/refint/GameTest.dll
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.pdb
+/home/nick/C#/GameTest/obj/Debug/net9.0/GameTest.genruntimeconfig.cache
+/home/nick/C#/GameTest/obj/Debug/net9.0/ref/GameTest.dll
