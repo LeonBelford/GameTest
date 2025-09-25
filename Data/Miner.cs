@@ -7,7 +7,7 @@ namespace UiGame.Data.Miner
         public int MinerNum { get; set; }
         public int MinerMk { get; set; }
         public int MinerLvl { get; set; }
-        public Resources MinerResource;
+        public Resources MinerResource{ get; set; }
 
         public enum Resources
         {

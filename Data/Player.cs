@@ -4,18 +4,18 @@ namespace UiGame.Data.Player
 {
     public class PlayerValue
     {
-        public double Money;
-        public double Income;
-        public List<MinerValue>? Miners;
-        public double Costs;
-        public int Coal;
-        public int Iron;
-        public int Sand;
-        public int Gold;
-        List<MinerValue> miner = new(); 
+        public double Money { get; set; }
+        public double Income { get; set; }
+        public List<MinerValue>? Miners { get; set; }
+        public double Costs { get; set; }
+        public int Coal { get; set; }
+        public int Iron { get; set; }
+        public int Sand { get; set; }
+        public int Gold { get; set; }
+        List<MinerValue> miner = new();
 
     }
-    
+
 
 
 }
