@@ -5,15 +5,13 @@ namespace UiGame.Models.Shop
 {
     public class SellingShop
     {
-        public static PlayerValue SellingGoods(PlayerValue playerValues)
+        public static PlayerValue SellingGoods(PlayerValue p)
         {
-            PlayerValue p = new();
-            p = playerValues;
+        
             p.Coal = 500;
 
             bool s = true;
             int amount = 5;
-            double Sp;
 
             MinerValue.Resources resources = MinerValue.Resources.Coal;
 
@@ -48,7 +46,7 @@ namespace UiGame.Models.Shop
                                     if (p.Coal >= amount)
                                     {
                                         p.Coal -= amount;
-                                        p.Money = +Data.Miner.MinerValue.SellingPoint(resources) * amount;
+                                        p.Money += Data.Miner.MinerValue.SellingPoint(resources) * amount;
 
                                     }
                                     else

@@ -2,12 +2,9 @@ namespace UiGame.Data.Miner
 {
     public class MinerValue
     {
-
-
         public int MinerNum { get; set; }
         public int MinerMk { get; set; }
-        public int MinerLvl { get; set; }
-        public Resources MinerResource{ get; set; }
+        public Resources MinerResource { get; set; }
 
         public enum Resources
         {
@@ -25,7 +22,6 @@ namespace UiGame.Data.Miner
             {
                 case MinerValue.Resources.Coal:
                     amount = 2.5;
-
                     break;
 
                 case MinerValue.Resources.Iron:
@@ -39,31 +35,31 @@ namespace UiGame.Data.Miner
                 case MinerValue.Resources.Gold:
                     amount = 8;
                     break;
-
             }
 
             return amount;
         }
 
-
         public static List<MinerValue> miner = new();
         //Creats a Minerlist and returs it with the given Configs
-        public static List<MinerValue> AddMiner()
+        public static List<MinerValue> AddMiner(MinerValue.Resources resources)
         {
             miner.Add(new MinerValue
             {
                 MinerNum = miner.Count + 1,
                 MinerMk = 1,
-                MinerLvl = 1,
-                MinerResource = MinerValue.Resources.Coal
+                MinerResource = resources
             });
             // Add Miner to Player :D 
             return miner;
         }
 
+    }
 
-
-
+    public class MKResource
+    {
+        public int MinerMk { get; set; }
+        public MinerValue.Resources MinerResource { get; set; }
 
     }
 }

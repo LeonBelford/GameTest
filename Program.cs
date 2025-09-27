@@ -10,10 +10,10 @@ using UiGame.Models.Shop;
 
 namespace UiGame;
 
-public class Game(string[] args)
+public class Game
 {
 
-    public static void Main()
+    public static void Main(string[] args)
     {
         bool stop = false;
         // implements a new Player Objekt 'p' :D
@@ -31,7 +31,8 @@ public class Game(string[] args)
                 switch (key.KeyChar)
                 {
                     case 'b':
-                        p.Miners = Data.Miner.MinerValue.AddMiner();
+                        // p.Miners = Data.Miner.MinerValue.AddMiner();
+                        p = UiGame.Models.Shop.MinerShop.BuyMiner(p);
                         break;
                     // Shop here you can sell ure goods :D 
                     case 's':
